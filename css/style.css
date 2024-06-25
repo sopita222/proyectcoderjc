@@ -1,0 +1,317 @@
+
+@font-face {
+    font-family: 'concert-one';
+    src: url(../assets/fonts/ConcertOne-Regular.ttf);
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* CSS Index */
+
+.carousel-caption d-none d-md-block {
+    font-size: 80px;
+}
+
+.carousel-inner {
+    max-width: none;
+    min-width: none;
+    margin: 0% auto;
+}
+
+h1  {
+    text-align: center;
+    color: #f9eff1;
+    text-decoration: none;
+    font-family: 'concert-one';
+    padding: 25px 2px 25px 35px;
+    margin-bottom: 15px;
+    
+}
+
+header {
+    background-color: #D3243C;
+    padding: 15px;
+    position: relative
+    
+}
+
+header div {
+    display: inline-block;
+}
+
+header nav,.navbar li {
+    display: inline-block;
+    justify-content: right;
+    
+}
+
+header .headerposition {
+    position: relative
+    
+}
+
+
+
+header div img {
+    vertical-align: middle;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar li a {
+    color: #f9eff1;
+    text-decoration: none;
+    font-family: 'concert-one';
+    font-size: 18px;
+    padding: 20px;
+    display: flex;
+}
+
+.parrafoIndex {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #f9eff1;
+    font-weight: 600;
+    font-family: 'concert-one';
+   
+}
+
+.mainContent {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #D3243C;
+    text-decoration: none;
+    padding: 5%;
+    margin: 0%;
+    width: 100%;
+    
+    
+}
+
+
+.iconos {
+    width: 25px
+}
+
+.logo-f img {
+    height: 50px;
+    width: 50px;
+    justify-content: flex-start;
+    align-items: center;
+}
+    
+   
+   
+
+
+
+/* CSS Contacto*/
+
+.logoContacto img {
+    height: 60px;
+}
+
+
+
+
+.tituloPrincipal {
+    background-color: #334284;
+    color: #f9eff1;
+    text-align: center;
+    font-family: 'concert-one';
+    
+}
+
+h3.subtitle {
+    text-align: right;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: #D3243C;
+    font-family: 'concert-one';
+}
+
+.formulario {
+    text-align: right;
+}
+
+.links a {
+    text-decoration: none;
+    color: #334284;
+    font-family: 'concert-one';
+    display: inline-block;
+}
+
+h6 {
+    color: #f9eff1;
+    font-family: 'concert-one';
+    text-align: center;
+}
+
+.parrafoMenu {
+    font-weight: 600;
+    font-family: 'concert-one';
+}
+
+.parrafoMenu a {
+    text-decoration: none;
+    color: #D3243C;
+    font-family: 'concert-one';
+}
+
+.menuImagen img {
+    height: 300px;
+}
+
+/* CSS NUESTRA HISTORIA*/
+
+.parrafos-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.parrafo1, .parrafo2, .parrafo3 {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'concert-one';
+    
+}
+
+.imagenes-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img1 img, .img2 img, .img3 img {
+    height: 300px;
+    font-weight: 300px;
+}
+
+
+
+/* CSS HORARIOS */
+
+.mainHorarios {
+    background-image: 
+    url(../assets/img/comida.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    height: 530px;
+    font-weight: 530px;
+}
+
+.parrafo-almuerzo, .parrafo-cena, .parrafo-cerrado {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'concert-one';
+}
+
+.parrafos-horarios {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Bootstrap Contacto*/
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #334284;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 991px) {
+
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        width: 0;
+        height: 2px;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+
+    }
+
+    .nav-link:hover::before, .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .formulario
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .redesSociales {
+        display: block;
+        text-align: right;
+        padding-top: 24px;
+    } 
+
+    h6 {
+
+        text-align: center;
+
+    }
+
+    .logo-f {
+        align-items: center;
+    }
+   
+    
+}
